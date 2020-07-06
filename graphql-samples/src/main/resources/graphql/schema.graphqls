@@ -1,0 +1,21 @@
+type Department {
+    name : String!
+    head : String!
+    organization : String!
+}
+
+type Employee {
+    id : Int!
+    name : String!
+    city:String!
+    sal : Int!
+    phone : Int!
+}
+
+schema {
+    query: EmployeeQuery
+}
+
+type EmployeeQuery {
+    allEmployees : [Employee!]!
+}
