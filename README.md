@@ -3,5 +3,5 @@
 
 -----------------------------------------
 # Build and Run the application
-``mvn clean install -Dmaven.test.skip -T 1.5C
+`mvn clean install -Dmaven.test.skip -T 1.5C
 
